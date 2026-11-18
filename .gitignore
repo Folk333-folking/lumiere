@@ -1,0 +1,24 @@
+# зависимости и сборка — ставятся локально, в репозиторий не входят
+node_modules/
+.vercel/
+.output/
+dist/
+.tanstack/
+.node_modules.lock
+
+# служебные файлы среды и проверки
+.grok/
+screenshots/
+artifacts/
+*.log
+npm-debug.log*
+
+# секреты
+.env
+.env.*
+!.env.example
+
+# система
+.DS_Store
+.idea/
+.vscode/
